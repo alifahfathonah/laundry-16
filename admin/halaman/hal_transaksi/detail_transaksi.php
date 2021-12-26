@@ -395,6 +395,6 @@ switch($_GET['act']){
 	  
 	  
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOH6IzmtVssUKuYrMYMz4aa575SHtjSHM&libraries=places&callback=initAutocomplete"
+    <script src="https://maps.googleapis.com/maps/api/js?key=key&libraries=places&callback=initAutocomplete"
     async defer></script>
 	
