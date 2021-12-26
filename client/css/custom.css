@@ -1,0 +1,167 @@
+/*!
+ * Start Bootstrap - Heroic Features HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+.tutup{
+	background:#fff;
+	position: fixed;
+	width:100%;
+	z-index:10000;
+	height:100%;
+	top:0px;
+	left:0px;
+	}
+	
+.error{
+	z-index:10001;
+	position: fixed;
+	left:0px;
+	padding-left:15px;padding-right:15px;
+}	
+ 
+.kotak {
+padding-left:5px;padding-right:5px;
+}
+
+.kotak2 {
+margin-left:-4px;margin-right:-4px;margin-top:10px;
+}	
+
+.kotak2 > img{
+width:100%;height:100px;
+}	
+
+
+ 
+.garis {
+	border-top:2px solid #307fa7;
+} 
+
+.nama_produk{
+overflow: hidden;text-overflow: ellipsis; white-space: nowrap;width:100%; height:20px;
+}
+
+.produk{
+border-bottom:2px solid #307fa7;
+}
+
+.kotak0 {
+padding-left:10px;padding-right:10px;
+}
+
+.produk > h4 {
+color:#307fa7;
+}
+ 
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	
+}
+
+
+.box-icon{
+	font-size:100px;
+	padding:5px;
+	color:#5ebdd6;
+}
+
+.kotak a{
+	font-weight:bold;
+}
+
+.kotak:hover .kotak2 .box-icon{
+	color:#35accc;
+}
+
+.body_login{
+	background:#5ebdd6;
+	padding-top:30px;
+}
+
+.hero-spacer {
+    margin-top: 50px;
+}
+
+.hero-feature {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.panjang {
+	min-height:300px;
+}
+
+.diskusi{ 
+	width:100%;
+	overflow-y: scroll;
+}
+
+.melayang{
+	position:fixed;
+	top:200px;
+	z-index:9999;
+	display:block;
+	width:100%;
+	margin-left:-15px;
+	padding-left:15px;padding-right:15px
+}
+
+
+.melayang .alert{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.dialog{
+	
+	padding:10px;
+	border-top:2px solid #c1c1c1;
+}
+
+.dialog .content{
+	margin-top:10px;
+	border:2px solid #c4c4c4;
+	border-radius:5px;
+	padding:10px;
+	
+}
+
+.dialog .header{
+	border-bottom:2px solid #555;
+	padding-left:10px;
+	padding-bottom:10px;
+	margin-left:-10px;
+	margin-right:-10px;
+}
+
+ .header span{
+	background:#555555;
+	color:#fff;
+	text-transform:capitalize;
+	padding:5px;
+	border-radius:3px
+}
+
+
+ .red .content{
+	background:#f9e2e2;
+	color:#c9302c;
+	border:2px solid #d9534f;
+	
+}
+
+.red .header{
+text-align:right;
+padding-right:10px;
+}
+
+.red .header span{
+	background:#d9534f;
+	
+}
+
+
+
+

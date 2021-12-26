@@ -1,0 +1,17 @@
+<FilesMatch "\.(ttf|otf|eot|woff|woff2)$">
+  <IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+  </IfModule>
+</FilesMatch>
+
+RewriteEngine On
+
+RewriteRule ^([^/.]+)$ ?page=$1&sub=index [L]
+RewriteRule ^([^/.]+)/([^/.]+)$ ?page=$1&sub=$2 [L]
+RewriteRule ^([^/.]+)/([^/.]+)/([^/.]+)$ ?page=$1&sub=$2&id=$3 [L]
+
+
+
+
+
+
